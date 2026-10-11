@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 68%;
+    left: 12%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-manio{
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.p{
+position: absolute;
+top: 20px;
+left: 65px;
+}
+.nav-btn{
+    width: 120px;
+    height: 30px;
+    background-color:steelblue;
+    border: none;
+    border-radius: 10px;
+}
+
+/* section-1 */
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 8%;
+}
+.hero-section{
+position: absolute;
+top: 60px;
+left: 10%;
+}
+.h1-img {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    left:110px;
+}
+.hero-h1{
+    width: 300px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.img-4{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 242px;
+    left: 145px;
+}
+.h1-img-buttom{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+    left: 190px;
+}
+.hero-para{
+    width: 400px;
+    padding-bottom: 20px;
+}
+.hero-btn{
+}
+.hero-btn-1{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    
+    
+}
+
+.hero-img img{
+    width: 400px;
+    height: 330px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+
+}
+.img-3{
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    left: 200px;
+    top: 230px;
+}
+
+
+/* section-2 */
+.section-2{
+position: absolute;
+width: 80%;
+top: 480px;
+left: 8%;
+}
+ .s-2-img {
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    object-fit: contain;
+} 
+.s-2 h1{
+color: blue;
+font-size: 50px;
+}
+
+.s-2-img-4 img{
+width: 900px;
+height: 550px;
+}
+.hr{
+    opacity: 0.5;
+}
+
+
+/* section-3 */
+.section-3{
+    position: absolute;
+    left: 6%;
+  }
+.boder{
+    width: 900px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 1250px;
+    border: none;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.boder-h1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.img-center{
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 28%;
+}
+
+/* section-4 */
+.section-4{
+position: absolute;
+top: 1800px;
+left: 50px;
+}
+.s-4-h1{
+    color:purple;
+}
+.box-card{
+
+}
+.box-img{
+    width: 400px;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 0px black;
+    border: none;
+}
+.box-img-h1 {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  color: purple;
+  font-size: 20px;
+}
+.box-img-p{
+   position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.img-card img{
+    width: 300px;
+    height: 180px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+.box-card-2{
+position: absolute;
+top: 10px;
+}
+.box-img-2{
+    width: 400px;
+    height: 180px;
+    background-color:white;
+    position: absolute;
+    top: 170px;
+    left: 570px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 0px black;
+}
+.box-img-h1-2{
+    position: absolute;
+  top: 110px;
+  left: 50px;
+  color: purple;
+  font-size: 20px;
+}
+.box-img-p-2{
+ position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.img-card-2 img{
+    width: 300px;
+    height: 175px;
+    position: relative;
+    top: 90px;
+    left: 630px;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+/* section-5 */
+.section-5{
+position: absolute;
+top: 2250px;
+left: 50px;
+}
+.box-s-5{
+    width: 1000px;
+    height: 150px;
+    background-color:rgb(241, 241, 241);
+    border-radius: 20px 20px 0px 0px;
+}
+.img-insta {
+    width: 300px;
+    height: 60pxs;
+   position: absolute;
+   top: 20px;
+   left: 40%;
+}
+.para-insta {
+width: 400px;
+    height: 60pxs;
+   position: absolute;
+   top: 80px;
+   left: 38%;
+}
+
